@@ -1,0 +1,57 @@
+{
+  "identifier" : "3517FCC4",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "1000000",
+      "familyShareable" : false,
+      "internalID" : "BCD7704C",
+      "localizations" : [
+        {
+          "description" : "Send unlimited text in one minute",
+          "displayName" : "Great Deal",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "在1分鐘內傳送無限句文字",
+          "displayName" : "吃到飽方案",
+          "locale" : "zh_TW"
+        }
+      ],
+      "productID" : "subscriptionProduct",
+      "referenceName" : "Send unlimited text in one minute",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+    {
+      "displayPrice" : "10000",
+      "familyShareable" : false,
+      "internalID" : "9B54531F",
+      "localizations" : [
+        {
+          "description" : "Send a meaningless text",
+          "displayName" : "Send",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "傳送一句無意義的文字",
+          "displayName" : "傳送",
+          "locale" : "zh_TW"
+        }
+      ],
+      "productID" : "consumableProduct",
+      "referenceName" : "Send",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

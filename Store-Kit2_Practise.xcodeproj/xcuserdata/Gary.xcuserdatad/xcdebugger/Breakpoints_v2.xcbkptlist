@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C5B49963-3ADC-46FF-A165-8BD0420AEBD3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6488219A-5543-4ADB-A336-2AC73E6B83AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Store-Kit2_Practise/StoreKit2VC/StoreKit2ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "getSubscribeProductsPurchasedStatus(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF0A8C25-1E92-4343-A052-BD03CBEF167A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Store-Kit2_Practise/StoreKit2VC/StoreKit2ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "setupUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BF0A8C25-1E92-4343-A052-BD03CBEF167A - f8563ee809caf435"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Store_Kit2_Practise.StoreKit2ViewController.setupUI() async -&gt; ()"
+                  moduleName = "Store-Kit2_Practise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Gary/Desktop/Store-Kit2_Practise/Store-Kit2_Practise/StoreKit2VC/StoreKit2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "BF0A8C25-1E92-4343-A052-BD03CBEF167A - 8a01253a8959cd55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for Store_Kit2_Practise.StoreKit2ViewController.setupUI() async -&gt; ()"
+                  moduleName = "Store-Kit2_Practise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Gary/Desktop/Store-Kit2_Practise/Store-Kit2_Practise/StoreKit2VC/StoreKit2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "BF0A8C25-1E92-4343-A052-BD03CBEF167A - 589638329c971fa0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for Store_Kit2_Practise.StoreKit2ViewController.setupUI() async -&gt; ()"
+                  moduleName = "Store-Kit2_Practise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Gary/Desktop/Store-Kit2_Practise/Store-Kit2_Practise/StoreKit2VC/StoreKit2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DE95802-50A2-418C-9E79-C90EB7874829"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Store-Kit2_Practise/APP_Purchase/StoreKit2Manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "upDatePurchaseIdentifier()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F7BDE5F-6D6C-47DF-9F1D-81471F8A3DF4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Store-Kit2_Practise/StoreKit2VC/StoreKit2ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "setupUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

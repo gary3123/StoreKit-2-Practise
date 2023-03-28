@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoreKit2ViewController" customModule="Store_Kit2_Practise" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="0VW-4d-k3M" id="T3a-4l-tSg"/>
+                <outlet property="sendButton" destination="FoV-Vl-5QA" id="Kxh-h4-Vij"/>
+                <outlet property="subscribeButton" destination="Yi7-o2-5Xw" id="VDX-Qz-Bdi"/>
+                <outlet property="textField" destination="xN4-WY-eYK" id="Grw-f8-0MH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VW-4d-k3M">
+                    <rect key="frame" x="98.333333333333329" y="251" width="196.33333333333337" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.99607843159999998" green="0.56078433989999998" blue="0.58431375029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="xN4-WY-eYK">
+                    <rect key="frame" x="39.333333333333343" y="292" width="314.33333333333326" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yi7-o2-5Xw">
+                    <rect key="frame" x="118" y="402" width="157" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Subscribe"/>
+                    <connections>
+                        <action selector="clickSubscribe" destination="-2" eventType="touchUpInside" id="hp5-3t-Os2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoV-Vl-5QA">
+                    <rect key="frame" x="118" y="359" width="157" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Send"/>
+                    <connections>
+                        <action selector="clickSend" destination="-2" eventType="touchUpInside" id="AuV-xP-miT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FoV-Vl-5QA" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="1gp-cR-QOX"/>
+                <constraint firstItem="Yi7-o2-5Xw" firstAttribute="top" secondItem="FoV-Vl-5QA" secondAttribute="bottom" constant="8" symbolic="YES" id="5Rm-qX-qWd"/>
+                <constraint firstItem="0VW-4d-k3M" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0246479" id="5Wp-Rw-UbR"/>
+                <constraint firstItem="0VW-4d-k3M" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="6Fu-4z-vpW"/>
+                <constraint firstItem="xN4-WY-eYK" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="DZW-0E-69C"/>
+                <constraint firstItem="Yi7-o2-5Xw" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="E6R-Yf-BVU"/>
+                <constraint firstItem="0VW-4d-k3M" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="FQu-6n-nP5"/>
+                <constraint firstItem="xN4-WY-eYK" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="Ip0-4Z-bTQ"/>
+                <constraint firstItem="FoV-Vl-5QA" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.4" id="X3j-nC-R6l"/>
+                <constraint firstItem="Yi7-o2-5Xw" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0410798" id="gFn-Ln-atL"/>
+                <constraint firstItem="0VW-4d-k3M" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="192" id="hdf-Dj-TdZ"/>
+                <constraint firstItem="xN4-WY-eYK" firstAttribute="top" secondItem="0VW-4d-k3M" secondAttribute="bottom" constant="20" id="ikd-8a-Dh3"/>
+                <constraint firstItem="Yi7-o2-5Xw" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.4" id="nOH-jj-dm7"/>
+                <constraint firstItem="FoV-Vl-5QA" firstAttribute="top" secondItem="xN4-WY-eYK" secondAttribute="bottom" constant="33" id="plV-px-pgU"/>
+                <constraint firstItem="FoV-Vl-5QA" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0410798" id="rEp-2c-PeV"/>
+                <constraint firstItem="xN4-WY-eYK" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0399061" id="zis-aW-HsO"/>
+            </constraints>
+            <point key="canvasLocation" x="116.79389312977099" y="19.718309859154932"/>
+        </view>
+    </objects>
+</document>
